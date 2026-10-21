@@ -1,0 +1,61 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Flutter generated metadata
+.flutter-plugins-dependencies
+**/ephemeral/
+**/.plugin_symlinks/
+.kotlin/
+**/.kotlin/
+
+# Generated native files
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/GeneratedPluginRegistrant.*
+
+# IDE files
+*.iml
+
+# Local temporary files
+*.tmp
+*.temp
+*.orig
+
+# Local secrets and signing material
+**/.env
+**/.env.*
+!**/.env.example
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase-adminsdk*.json
+**/service-account*.json
+**/*secret*.json
+**/*credential*.json
+
+# Local generated Kotlin/Flutter caches
+**/.kotlin/
+**/.dart_tool/
+**/ephemeral/
+
+# Additional generated dependencies
+**/.symlinks/
+**/Pods/
+**/DerivedData/
+**/gradle.properties.local
+
+# Review separately before publishing
+APP_VENTURE_FULL_AUDIT_REPORT.md
+kotlin_reference/
